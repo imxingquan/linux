@@ -8,6 +8,9 @@
     git remote show <主机名> 可以查看该主机的详细信息
 3. 更新代码到本地
     git fetch <远程主机名> 
-4. 将本地分支的更新，推送到远程主机
+4. 取回远程主机某个分支的更新，再与本地的指定分支合并
+    git pull
+5. 将本地分支的更新，推送到远程主机
     git push <远程主机名> <本地分支名>:<远程分支名>
-    git push origin
+    git push origin master 将本地的master分支推送到origin主机的master
+
