@@ -15,10 +15,10 @@
     git push origin master 将本地的master分支推送到origin主机的master
 
 用法顺序
-    本地修改代码 提交到服务器的git命令顺序
-    git add .
-    git commit -m 'my commit'
-    git push
+    本地修改代码 提交到服务器的git命令顺序  
+    git add .  
+    git commit -m 'my commit'  
+    git push  
 
 参考：http://gitref.org/zh
 
